@@ -3,9 +3,9 @@
 An example ESLint config starting template.
 
 ```bash
-npm i https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha1/sensortower.eslint-config-demo-1.0.0-alpha1.tgz
-pnpm i https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha1/sensortower.eslint-config-demo-1.0.0-alpha1.tgz
-yarn add https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha1/sensortower.eslint-config-demo-1.0.0-alpha1.tgz
+npm i https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha2/sensortower.eslint-config-demo-1.0.0-alpha2.tgz
+pnpm i https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha2/sensortower.eslint-config-demo-1.0.0-alpha2.tgz
+yarn add https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha2/sensortower.eslint-config-demo-1.0.0-alpha2.tgz
 ```
 
 ## Usage

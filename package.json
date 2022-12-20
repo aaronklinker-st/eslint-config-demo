@@ -1,6 +1,6 @@
 {
-    "name": "@sensortower/eslint-config",
-    "version": "1.0.0-alpha1",
+    "name": "@sensortower/eslint-config-demo",
+    "version": "1.0.0-alpha2",
     "main": "./base.js",
     "files": [
       "*.js"
