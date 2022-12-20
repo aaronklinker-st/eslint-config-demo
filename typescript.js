@@ -9,11 +9,13 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
-        argsIgnorePattern: '_.*',
-        varsIgnorePattern: '_.*',
-        destructuredArrayIgnorePattern: '_.*',
+        argsIgnorePattern: '^_',
+        "args": "after-used",
+        varsIgnorePattern: '^_',
+        destructuredArrayIgnorePattern: '^_',
       },
     ],
+    "@typescript-eslint/consistent-type-imports": "warn",
     'no-return-await': 'warn',
     '@typescript-eslint/no-misused-promises': [
       'warn',
