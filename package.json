@@ -1,20 +1,22 @@
 {
-    "name": "@sensortower/eslint-config-demo",
-    "version": "1.0.0-alpha2",
-    "main": "./base.js",
-    "files": [
-      "*.js"
-    ],
-    "devDependencies": {
-      "@types/eslint": "^8.4.10"
-    },
-    "dependencies": {
-      "@typescript-eslint/eslint-plugin": "^5.43.0",
-      "@typescript-eslint/parser": "^5.43.0",
-      "eslint": "^8.16.0",
-      "eslint-config-prettier": "^8.5.0",
-      "eslint-plugin-only-warn": "^1.0.3",
-      "eslint-plugin-vue": "^9.7.0",
-      "typescript": "*"
-    }
+  "name": "@sensortower/eslint-config-demo",
+  "version": "1.0.0-alpha2",
+  "main": "./base.js",
+  "files": [
+    "*.js"
+  ],
+  "devDependencies": {
+    "@types/eslint": "^8.4.10"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-vue": "^9.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  }
 }
