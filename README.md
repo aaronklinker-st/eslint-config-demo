@@ -8,6 +8,12 @@ pnpm i https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-c
 yarn add https://mymavenrepo.com/repo/QMKt2VOnUw3lmDFcg9oN/js/sensortower.eslint-config-demo/1.0.0-alpha2/sensortower.eslint-config-demo-1.0.0-alpha2.tgz
 ```
 
+This project uses `only-warn` to make all linting errors warnings in your editor. If you want CI to fail if there are any lint errors set the `--max-warnings` flag to 0:
+
+```bash
+eslint . --max-warnings 0
+```
+
 ## Usage
 
 Your project config can extend any of the following, or multiple:
@@ -39,10 +45,11 @@ parserOptions:
 
 ### Vue Typescript
 
-You also need to pass the relative path to the `tsconfig.json` file for `vue3-ts`
+You also need to pass the relative path to the `tsconfig.json` file for `vue3-ts`. Also set `extraFileExtensions` to make sure `.vue` files can be linted.
 
 ```ts
 extends: '@sensortower/eslint-config-demo/vue3-ts'
 parserOptions:
   project: './tsconfig.json'
+  extraFileExtensions: ['.vue']
 ```

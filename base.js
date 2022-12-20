@@ -4,6 +4,7 @@
 module.exports = {
   plugins: ['only-warn'],
   extends: ['eslint:recommended', 'prettier'],
+  reportUnusedDisableDirectives: true,
   rules: {
     'no-unused-vars': [
       'warn',
